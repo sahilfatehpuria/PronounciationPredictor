@@ -23,6 +23,4 @@ Currently, it achieves a validation loss of 0.1026 and a testing loss of 0.1003.
 ### Next Steps
 Integrate a way for the computer to 'say' a predicted pronounciation
 
-Compare performance to a pretrained transformer. 
-
-Interesting to see the process to finetune a GPT for this task
+Try and do some Mechanistic Interpretability research on the model. Does this model have induction circuits? I do not believe there is a need for them in this use case, but they are a fundamental emergent feature in text based transformers. Is there a way we can identify behavior like supressing consecutive vowel sound tokens, which is something I expect to see. I wish to come up with other behaviors that this model might show and see if they can be reverse engineered.
