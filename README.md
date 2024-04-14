@@ -1,6 +1,6 @@
 # PronounciationPredictor
 
-This is a program that tries to predict how a word is pronounced given how it's spelled. The dataset this was trained on is [The CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict). It uses an encoder decoder transformer structure, that has been implemented from scratch.
+This is a program that tries to predict how a word is pronounced given how it's spelled. The dataset this was trained on is [The CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict). It uses an encoder decoder transformer structure, that has been implemented from scratch. The data used is version 0.7b, accessed from the github repository linked above.
 
 ### Performance
 
